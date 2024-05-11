@@ -11,6 +11,8 @@ int main() {
     scanf("%f", &n2);
 
     media = (n1+n2)/2;
+    
+    printf("A média obtida foi: %.2f\n", media);
 
     if(media <= 4.0 ) {
         printf("REPROVADO!\n");
